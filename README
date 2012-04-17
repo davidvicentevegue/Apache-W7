@@ -9,6 +9,6 @@ At this repository we found an customizate httpd.conf for a fast install of apac
 4. Stop and restart apache server.
 5. That's all folks ;-)
 
-*note: be sure of download the apropiate version of php that works with apache. This version must be compiled with
+*Note: Be sure of download the apropiate version of php that works with apache. This version must be compiled with
 VS6 and packed liked that: "php-5.2.17-Win32-VC6-x86.zip" (Thread Safe version), because versions compiled with VS9
 or higher don't work with apache
