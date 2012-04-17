@@ -1,0 +1,8 @@
+****** File configurator for fast apache install at W7-32 bits ******
+
+At this repository we found an customizate httpd.conf for a fast install in W7, with this configuration:
+
+1. Install apache's *.msi from Apache
+2. Create the following directory: C:\appserv\Apache2.2
+3. Copy the file "httpd_w7.conf" to the following directory C:\appserv\Apache2.2\conf\ and rename it to "httpd.conf"
+4. Stop and restart apache server.
