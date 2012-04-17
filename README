@@ -1,6 +1,6 @@
 ****** File configurator for fast apache & PHP 5 install at W7 ******
 
-At this repository we found an customizate httpd.conf for a fast install of apache server 2.2 in W7 & PHP 5
+At this repository we found an customizate httpd.conf for a fast install of apache server 2.2 & PHP 5 in W7 
 , through this configuration file:
 
 1. Install apache's *.msi from Apache at this custom directory: C:\appserv\Apache2.2
