@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Apache-w7 by davidvicentevegue</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/davidvicentevegue/Apache-W7">Fork Me on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Apache-w7</h1>
+            <h2>Config Apache 2.2 &amp; PHP 5 at W7 - quickly</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/davidvicentevegue/Apache-W7/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/davidvicentevegue/Apache-W7/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+      <span class="banner-fix"></span>
+
+      <section id="main_content">
+        <h3>* File configurator for fast Apache &amp; PHP 5 install at W7 *</h3>
+
+<hr><p>At this repository we found an customizate httpd.conf for a fast install of apache server 2.2 &amp; PHP 5 in W7 
+, through this configuration file:</p>
+
+<ol>
+<li>Install apache's <em>.msi from Apache at this custom directory: _</em><em>C:\appserv\Apache2.2</em>*_</li>
+<li>Install php 5+ (only download the zip file and extract) from PHP at this custom directory: <em><strong>C:\appserv\php5</strong></em>
+</li>
+<li>Copy the file <strong><em>"httpd_w7.conf"</em></strong> to the following directory <em><strong>C:\appserv\Apache2.2\conf\</strong></em> and rename it to <em><strong>"httpd.conf"</strong></em>
+</li>
+<li>
+<em><strong>Stop and restart</strong></em> apache server.</li>
+<li>That's all folks ;-)</li>
+</ol><blockquote>
+<p><strong>+note:</strong> Be sure of download the apropiate version of php that works with apache. This version must be compiled with
+ VS6 and packed liked that: "php-5.2.17-Win32-VC6-x86.zip" (Thread Safe version), because versions compiled with VS9
+ or higher don't work with apache.</p>
+</blockquote>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/davidvicentevegue">davidvicentevegue</a> can be found on <a href="https://github.com/davidvicentevegue/Apache-W7">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
